@@ -8,10 +8,10 @@ REDSHIFT_PORT=5439
 REDSHIFT_CLUSTER_TYPE=multi-node
 REDSHIFT_NODE_TYPE=dc2.large
 REDSHIFT_NUM_NODES=4
-REDSHIFT_VPC_SECURITY_GROUP_ID=sg-09a19fe8b50b3626f
+REDSHIFT_VPC_SECURITY_GROUP_ID=sg-09a19fxxxx
 
-REDSHIFT_IAM_ROLE_ARN_1='arn:aws:iam::569126059190:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
-REDSHIFT_IAM_ROLE_ARN_2='arn:aws:iam::569126059190:role/dwh_role'
+REDSHIFT_IAM_ROLE_ARN_1='arn:aws:iam::xxxxxxxx9190:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
+REDSHIFT_IAM_ROLE_ARN_2='arn:aws:iam::xxxxxxxx9190:role/dwh_role'
 
 aws redshift create-cluster \
     --db-name $REDSHIFT_DB \
