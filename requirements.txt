@@ -1,2 +1,6 @@
-psycopg2-binary
+ipython-sql
 jupyterlab
+matplotlib
+pandas
+psycopg2-binary
+sqlalchemy
